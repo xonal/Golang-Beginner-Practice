@@ -1,4 +1,4 @@
-# Golang-Beginner-Practice :indonesia:
+# Golang-Beginner-Practice (In Bahasa)
 
 <img src="https://user-images.githubusercontent.com/33995016/103326949-6f738400-4a07-11eb-9dd2-d39075489763.png" width="600" height="400">
 

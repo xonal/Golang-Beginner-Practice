@@ -43,6 +43,8 @@ rune         | sama dengan int32
 
 ## Fungsi *fmt.Print()* dan *fmt.Println()*
 
+Menampilkan tulisan "Hello World" dengan *print*, "Hello" dengan *println*, dan "World" dengan *println*
+
 ```
 
 package main
@@ -156,7 +158,7 @@ Perulangan tanpa deklarasi ++
 ```
     var i = 0
 
-    for 1 < 5 { //perulangan tanpa deklarasi ++
+    for 1 < 5 {
         fmt.Print(i, " adalah bilangan") //mengulang bilangan dari 1 sampai 4
     }
 ```

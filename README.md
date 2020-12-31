@@ -169,7 +169,7 @@ Perulangan *true* atau *infinite loop*
 
     for {
         i++
-        if(i == 5) { //jika nilai i sudah mencapai 5 maka break perulangan
+        if(i == 5) { //jika nilai i sudah mencapai 5 maka break dari perulangan
             break
         }
     }

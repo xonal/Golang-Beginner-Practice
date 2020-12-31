@@ -163,5 +163,17 @@ Perulangan tanpa deklarasi ++
     }
 ```
 
+Perulangan *true* atau *infinite loop*
+```
+    var i = 0
+
+    for {
+        i++
+        if(i == 5) { //jika nilai i sudah mencapai 5 maka break perulangan
+            break
+        }
+    }
+```
+
 
 

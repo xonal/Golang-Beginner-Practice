@@ -85,31 +85,23 @@ Tanda | Penjelasan
 !=    | Tidak sama dengan
 
 
-
-package main
-
-import "fmt"
-
-func main() {
-
-   if( 2 == 2) { //2 sama dengan 2
+    if( 2 == 2) { //2 sama dengan 2
     
-    fmt.Print("true") //print "true"
+        fmt.Print("true") //print "true"
    
    }else if(2 <= 1) { // 2 lebih kecil sama dengan 1
     
-    fmt.Print("false") //print "false"
+        fmt.Print("false") //print "false"
    
    }else if(2 >= 1) { // 2 lebih besar sama dengan 1
     
-    fmt.Print("true")//print "true"
+        fmt.Print("true")//print "true"
    
    }else if( 2 != 1) {// 2 tidak sama dengan 1
     
-    fmt.Print("true")// print "true"
+        fmt.Print("true")// print "true"
    
    }
-}
 
 ```
 

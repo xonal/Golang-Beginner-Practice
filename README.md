@@ -53,11 +53,11 @@ import "fmt"
 
 func main() {
 
-   fmt.print("Hello World") //menampilkan tulisan Hello World pada console
+   fmt.print("Hello World")
    
-   fmt.println("Hello") //menampilkan tulisan Hello dengan new line
+   fmt.println("Hello")
    
-   fmt.println("World") //menampilkan tulisan World dengan new line
+   fmt.println("World")
 }
 
 ```

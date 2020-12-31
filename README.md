@@ -143,6 +143,8 @@ func main() {
 
 ## Perulangan *for*
 
+Perulangan dengan argumen
+
 ```
     for i := 1; i < 5; i++ {
         fmt.Print(i, " adalah bilangan") //mengulang bilangan dari 1 sampai 4
@@ -150,6 +152,7 @@ func main() {
    
 ```
 
+Perulangan tanpa deklarasi ++
 ```
     var i = 0
 
@@ -157,4 +160,6 @@ func main() {
         fmt.Print(i, " adalah bilangan") //mengulang bilangan dari 1 sampai 4
     }
 ```
+
+
 

@@ -84,17 +84,17 @@ Tanda | Penjelasan
     
         fmt.Print("true") //print "true"
    
-   }else if(2 <= 1) { // 2 lebih kecil sama dengan 1
+   }else if(2 <= 1) { //2 lebih kecil sama dengan 1
     
         fmt.Print("false") //print "false"
    
-   }else if(2 >= 1) { // 2 lebih besar sama dengan 1
+   }else if(2 >= 1) { //2 lebih besar sama dengan 1
     
-        fmt.Print("true")//print "true"
+        fmt.Print("true") //print "true"
    
-   }else if( 2 != 1) {// 2 tidak sama dengan 1
+   }else if( 2 != 1) { //2 tidak sama dengan 1
     
-        fmt.Print("true")// print "true"
+        fmt.Print("true") //print "true"
    
    }
 
@@ -145,7 +145,16 @@ func main() {
 
 ```
     for i := 1; i < 5; i++ {
-        fmt.Print(i, " adalah bilangan)
+        fmt.Print(i, " adalah bilangan") //mengulang bilangan dari 1 sampai 4
+    }
+   
+```
+
+```
+    var i = 0
+
+    for 1 < 5 { //perulangan tanpa deklarasi ++
+        fmt.Print(i, " adalah bilangan") //mengulang bilangan dari 1 sampai 4
     }
 ```
 

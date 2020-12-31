@@ -41,11 +41,6 @@ int64        | -9223372036854775808 ↔ 9223372036854775807
 int          | sama dengan int32 atau int64 (tergantung nilai)
 rune         | sama dengan int32
 
-```
-var num int16 = 12 //variabel dengan int16
-
-```
-
 ## Fungsi *fmt.Print()* dan *fmt.Println()*
 
 ```

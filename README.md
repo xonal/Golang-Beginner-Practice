@@ -141,4 +141,11 @@ func main() {
 
 ```
 
+## Perulangan *for*
+
+```
+    for i := 1; i < 5; i++ {
+        fmt.Print(i, " adalah bilangan)
+    }
+```
 

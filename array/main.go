@@ -14,7 +14,7 @@ func main() {
 
 	// rangeArray() //4
 
-	multidimensionalArray() //5
+	// multidimensionalArray() //5
 
 	// makeArray() //6
 }

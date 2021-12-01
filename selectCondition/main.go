@@ -37,7 +37,7 @@ func temporaryIf() { //#2
 	}
 }
 
-func secondTemporaryIf() { //3
+func secondTemporaryIf() { //#3
 	//Kondisi temporary digunakan untuk dapat langsung mengeksekusi kondisi tertentu pada "if-else"
 	if point := 65; point >= 100 { //Dapat langsung membuat variabel "point" dengan nilai 65 dan langsung dibandingkan pada line yang sama
 		fmt.Println("Perfect!!") //Tampilkan "Perfect"

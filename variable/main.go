@@ -41,5 +41,5 @@ func multipleVariable() { //#3
 func underscoreVariable() { //#4
 	name, _ := "niken", "gurerro" // _ adalah variable yang tidak wajib dipanggil
 	// sehingga bisa tetap ditulis walaupun tidak di eksekusi
-	fmt.Println(name) //Cotoh variabel _ tidak dipanggil namun tetap bisa di eksekusi
+	fmt.Println(name) //Cotoh variabel _ tidak dipanggil namun fungsi tetap bisa di eksekusi
 }

@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-// func main() {
-// 	fmt.Println("Hello World")
-// }
+func main() { //1
+	helloWorld()
+}
 
-func main() {
-	fmt.Println("Belajar lagi")
+func helloWorld() { //#1
+	fmt.Println("Hello World") //Penulisan Hello World
 }

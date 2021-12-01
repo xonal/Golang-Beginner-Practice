@@ -5,12 +5,12 @@ import (
 )
 
 func main() {
-	// fixedArray()
-	// dynamicArray()
-	// rangeArray()
+	fixedArray()
+	dynamicArray()
+	rangeArray()
 	multidimensionalArray()
-	// defaultArray()
-	// makeArray()
+	defaultArray()
+	makeArray()
 
 }
 

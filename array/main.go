@@ -17,6 +17,8 @@ func main() {
 	// multidimensionalArray() //5
 
 	// makeArray() //6
+
+	postTest()
 }
 
 func defaultArray() { //#1
@@ -51,8 +53,8 @@ func dynamicArray() { //#3
 	//Dynamic Array adalah array yang nilainya tidak dibatasi jumlah maksimum nilainya
 	var numbers = [...]int{1, 2, 4, 6} //dynamic array ditulis menggunakan [...]
 
-	for i := 0; i < len(numbers); i++ {
-		fmt.Println("Angka", numbers[i])
+	for i := 0; i < len(numbers); i++ { //Melakukan perulangan
+		fmt.Println("Angka", numbers[i]) //Menampilkan angka secara berurut
 	}
 }
 
@@ -69,12 +71,12 @@ func multidimensionalArray() { //#5
 	numbers := [2][4]int{{3, 2, 3, 4}, {3, 4, 5, 6}}
 
 	for i := 0; i < len(numbers); i++ { //Melakukan pengulangan untuk menampilkan masing-masing dari baris (looping baris)
-		fmt.Println("Numbers: ", numbers[i])
+		fmt.Println("Numbers: ", numbers[i]) //Menampilkan hasil perulangan baris
 	}
 
 	for i := 0; i < len(numbers); i++ { //Melakukan pengulangan baris
 		for j := 0; j < len(numbers[i]); j++ { //Melakukan pengulangan kolom
-			fmt.Println("Numbers: ", numbers[i][j])
+			fmt.Println("Numbers: ", numbers[i][j]) //Menampilkan hasil perulangan nilai satuan dari masing-masing baris
 		}
 
 	}
@@ -87,4 +89,16 @@ func makeArray() { //#6
 	fruits[1] = "mango"
 
 	fmt.Println(fruits)
+}
+
+func postTest() {
+	const pers = 4
+
+	var person [pers]string
+	person[0] = "Adi"
+
+	for i := len(person) - 1; i > 0; i-- {
+		fmt.Println(person[i])
+	}
+
 }

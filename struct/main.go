@@ -66,3 +66,17 @@ func anonymouseStruct() { //#3
 	fmt.Println("name : ", person.name) //Menampilkan properti name
 	fmt.Println("Age : ", person.age)   //Menampilkan properti age
 }
+
+func sliceAndStruct() {
+	var allStudents = []person{ //Membuat variabel allStudents berbentuk struct dan slice
+		{name: "Abdul", age: 25},
+		{name: "Desi", age: 23},
+	}
+
+	for _, student := range allStudents { //Melakukan perulangan pada allStudents
+		//_ merupakan simbol key pada perulangan allStudents
+		//student merupakan simbol value pada perulangan allStudents
+		fmt.Println(student.name, "age is", student.age) //Menampilkan nama dan umur
+	}
+
+}

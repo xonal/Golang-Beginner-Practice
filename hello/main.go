@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func main() { //1
-	helloWorld()
+func main() {
+	helloWorld() //1
 }
 
 func helloWorld() { //#1
